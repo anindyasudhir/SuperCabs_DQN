@@ -14,4 +14,10 @@ In this project, you need to create the environment and an RL agent that learns 
 
 ![image](https://user-images.githubusercontent.com/8203312/119506163-48896600-bd8b-11eb-9e5e-7282a146bd59.png)
 
-We have implemented both of these architectures and wrote final results in the conclusion.
+We have implemented both of these architectures.
+
+
+# Why did we choose Architecture 1 (State input neural network) over Architecture 2 (State-action input neural network)?
+
+  - Architecture 2 works but is way slower than Architecture 1.
+  - Architecture 2 took Total execution time of 4016.45 seconds to train 1000 episodes while Architecture 1 took just ~450 seconds to train on 1000 episodes making Architecture 2 (state-action input) infeasible with our system configuration.
